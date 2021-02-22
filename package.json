@@ -1,0 +1,26 @@
+{
+  "name": "DEfiWallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMPWONG/DEfiWallet.git"
+  },
+  "keywords": [],
+  "author": " <Matisse>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IMPWONG/DEfiWallet/issues"
+  },
+  "homepage": "https://github.com/IMPWONG/DEfiWallet#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0"
+  }
+}
