@@ -44,7 +44,7 @@ contract Wallet {
         dai.approve(address(yDai), amount);
         yDai.deposit(amount);
     }
-    
+     
     //Amount of Dai avabalaible 
     function balance() external view returns(uint) {
         uint price = yDai.getPricePerFullShare();
